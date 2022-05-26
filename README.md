@@ -2,7 +2,12 @@
 
 Replaces ImGUI with this classic **Internal Interface** written directory in Lua.
 
-To run the Internal Interface:
+To run the Internal Executor with the Built-in execution function:
 ```lua
 StartInternalExecutor("My Internal Executor")
+```
+
+To destroy the Internal Executor (or you can press X at the top right side):
+```lua
+DestroyInternalExecutor()
 ```
