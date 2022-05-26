@@ -1,3 +1,14 @@
+--[[
+   Before starting, go to iExecute.lua and run that function.
+   It acts like loadstring but it's loadstring in a function (WTF).
+   
+   If you get loadstring() not avaiable your exploit is confirmed shit.
+   loadstring() acts as execution so you could use a custom function.
+    
+   iExecute() is a must, make sure to start that before doing this!
+   Also happy exploiting :)
+]]
+
 function StartInternalExecutor(ietitle)
   
 local ClxyInternalUI = Instance.new("ScreenGui")
@@ -82,8 +93,8 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 TextButton_3.MouseButton1Click:Connect(function()
-	iExecute(TextBox.Text)--had some issues so might wanna replace with loadstring
- --loadstring(TextBox.Text)()
+	iExecute(TextBox.Text)-- if u had some issues so might wanna replace with loadstring
+      --loadstring(TextBox.Text)()
 end)
 
 TextButton_4.Parent = Frame
