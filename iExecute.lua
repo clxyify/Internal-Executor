@@ -1,6 +1,6 @@
 function iExecute(source)--use 'source' as our target script
-	local src = loadstring(source.."\n\nprint'Clxyify Internal Executor - plz don't skid ;)'")()--acts as a function
-	src()--run the script as a function
+loadstring(source)()--acts as a function
+print("congrats for running ur "..math.random(1,55000).." script!")
 end
 
 --[[
