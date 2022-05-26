@@ -101,3 +101,7 @@ TextButton_4.MouseButton1Click:Connect(function()
 	TextBox.Text = ""
 end)
 end
+
+function DestroyInternalExecutor()
+	game.CoreGui.ClxyInternalUI:Destroy()
+end
